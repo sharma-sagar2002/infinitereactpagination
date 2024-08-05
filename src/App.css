@@ -1,0 +1,50 @@
+.App {
+  text-align: center;
+  margin: 0;
+  padding :0;
+  box-sizing: border-box;
+}
+
+.post-container{
+  margin:20px;
+  padding:0px;
+  height: 100vh;
+  display :grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  gap: 20px;
+  overflow-y: scroll;
+}
+.post-container__post{
+  
+  padding: 20px;
+  text-align: center;
+  border-radius: 10px;
+  cursor: pointer;
+  box-shadow: inset;
+  background-color: lightcyan;
+
+}
+.pagination {
+  padding: 10px;
+  margin : 15px 0px;
+  display : flex;
+  justify-content:center;
+  border-radius: 10px;
+
+}
+
+.pagination__span{
+  padding: 15px 20px;
+  border : 1px solid black ;
+  cursor: pointer;
+}
+
+.pagination__selected {
+  background-color: beige;
+}
+
+.post__body {
+  text-align: justify;
+}
+
+
